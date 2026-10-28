@@ -90,7 +90,7 @@ To verify the integrity of your download:
 
 `	ext
 File: Echo-1.0.0-core-release-1.apk
-SHA-256: b688f40a735cfb6bee89ed6a39da2d5819b0d074b1326a0e91ca87aa1fe58015
+SHA-256: 6a88e1e007d42eaad9cac0d7663a781edff5588fbdfbee8bffad4bf4cb69cd11
 Signature: Verified (v2 + v3 scheme)
 `
 
