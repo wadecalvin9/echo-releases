@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" width="512" height="512">
+  <rect width="108" height="108" rx="24" fill="#000000" />
+  <g>
+    <!-- Outer Left 'C' Arc -->
+    <path d="M 52.05,26.07 A 28,28 0 0,0 52.05,81.93" fill="none" stroke="#ffffff" stroke-width="6.8" stroke-linecap="butt" />
+    <!-- Outer Top-Right Arc -->
+    <path d="M 55.95,26.07 A 28,28 0 0,1 78.25,40" fill="none" stroke="#ffffff" stroke-width="6.8" stroke-linecap="butt" />
+    <!-- Outer Bottom-Right Arc -->
+    <path d="M 78.25,68 A 28,28 0 0,1 55.95,81.93" fill="none" stroke="#ffffff" stroke-width="6.8" stroke-linecap="butt" />
+    <!-- Inner Top-Left Arc -->
+    <path d="M 42.57,62.93 A 14.5,14.5 0 0,1 62.93,42.57" fill="none" stroke="#ffffff" stroke-width="5.8" stroke-linecap="butt" />
+    <!-- Inner Bottom-Right Arc -->
+    <path d="M 65.43,45.07 A 14.5,14.5 0 0,1 45.07,65.43" fill="none" stroke="#ffffff" stroke-width="5.8" stroke-linecap="butt" />
+  </g>
+</svg>
