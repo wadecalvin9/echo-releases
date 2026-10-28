@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/wadecalvin9/echo-releases/main/assets/icon.png" width="120" height="120" alt="Echo Icon" style="border-radius: 24px;" />
+<img src="https://raw.githubusercontent.com/wadecalvin9/echo-releases/main/assets/icon.png?v=2" width="120" height="120" alt="Echo Icon" style="border-radius: 24px;" />
 
 # Echo
 
