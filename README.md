@@ -61,11 +61,11 @@ No accounts mandatory. No tracking. No ads. Just instant music.
 
 ## 📦 Download & Installation
 
-### Latest Release: [v1.0.0](https://github.com/wadecalvin9/echo-releases/releases/latest)
+### Latest Release: [v1.0.1](https://github.com/wadecalvin9/echo-releases/releases/latest)
 
 | Asset | Target Android | Size | Description |
 | :--- | :--- | :--- | :--- |
-| **[Echo-1.0.0-core-release-1.apk](https://github.com/wadecalvin9/echo-releases/releases/download/v1.0.0/Echo-1.0.0-core-release-1.apk)** | Android 7.0+ (API 24+) | ~14.9 MB | **Recommended.** Universal build supporting all modern devices (rm64-v8a, rmeabi-v7a, x86, x86_64). |
+| **[Echo-1.0.1-core-release-2.apk](https://github.com/wadecalvin9/echo-releases/releases/download/v1.0.1/Echo-1.0.1-core-release-2.apk)** | Android 7.0+ (API 24+) | ~14.1 MB | **Recommended.** Universal build supporting all modern devices (arm64-v8a, armeabi-v7a, x86, x86_64). |
 
 ### How to Install:
 1. Tap the download link above on your Android phone.
@@ -88,11 +88,11 @@ Echo includes an automated update checker:
 
 To verify the integrity of your download:
 
-`	ext
-File: Echo-1.0.0-core-release-1.apk
-SHA-256: 6a88e1e007d42eaad9cac0d7663a781edff5588fbdfbee8bffad4bf4cb69cd11
+```text
+File: Echo-1.0.1-core-release-2.apk
+SHA-256: a1cc03f7e3d889c0c4ee7a21f5f0faa95d9bff40326fa6db733251b4c9ffa65c
 Signature: Verified (v2 + v3 scheme)
-`
+```
 
 ---
 
