@@ -12,18 +12,18 @@
 [![Architecture](https://img.shields.io/badge/Arch-Universal%20Core-616161?style=for-the-badge)](https://github.com/wadecalvin9/echo-releases/releases/latest)
 
 <p align="center">
-  <a href="https://github.com/wadecalvin9/echo-releases/releases/latest"><b>[ ⬇ Download Latest APK ]</b></a> •
-  <a href="#-features">Features</a> •
-  <a href="#-screenshots">Screenshots</a> •
-  <a href="#-installation">Installation</a> •
-  <a href="#-in-app-updates">In-App Updates</a>
+  <a href="https://github.com/wadecalvin9/echo-releases/releases/latest"><b>[ Download Latest APK ]</b></a> •
+  <a href="#features">Features</a> •
+  <a href="#screenshots">Screenshots</a> •
+  <a href="#download--installation">Installation</a> •
+  <a href="#in-app-updates">In-App Updates</a>
 </p>
 
 </div>
 
 ---
 
-## 🌟 Overview
+## Overview
 
 **Echo** is a modernized, distraction-free Android music player tailored for streaming YouTube Music and playing your personal offline music library. Built with modern Jetpack Compose and clean Material Design, Echo focuses on speed, battery efficiency, and an uncluttered auditory experience.
 
@@ -31,7 +31,7 @@ No accounts mandatory. No tracking. No ads. Just instant music.
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/wadecalvin9/echo-releases/main/assets/screenshot_home.jpg" width="22%" alt="Home Discover" />
@@ -45,21 +45,21 @@ No accounts mandatory. No tracking. No ads. Just instant music.
 
 ---
 
-## ✨ Features
+## Features
 
-- **🚀 Ultra-Fast Cold Start:** Zero onboarding hurdles. The app launches immediately into your music without modal popups or walkthrough blocks.
-- **🎵 MiniPlayer Swipe Gestures:** Swipe left or right on the MiniPlayer to skip tracks with natural haptic feedback and elastic resistance.
-- **✨ Animated Transitions:** Smooth, fluid text transitions for titles and artist labels as tracks change.
-- **🎨 Monochromatic & True Black:** High-contrast zinc/charcoal dark palette optimized for battery savings on AMOLED/OLED screens.
-- **🖼️ Smart Monogram Fallback:** Dynamic artist letter monograms on clean container surfaces so you never see empty or black void circles.
-- **📜 Synchronized Lyrics:** Live time-synced lyrics with multi-provider fallback (YouTube Music, LRCLIB, Kugou).
-- **📂 Hybrid Library:** Seamlessly mix local audio files (MP3, FLAC, Opus, AAC, M4A) with cloud YouTube Music playlists.
-- **🔒 Privacy First:** No user data collection, no telemetry, and zero third-party tracking libraries.
-- **🔄 Built-In Updater:** Get notified directly in the app when an update is available and update with a single tap.
+- **Ultra-Fast Cold Start:** Zero onboarding hurdles. The app launches immediately into your music without modal popups or walkthrough blocks.
+- **MiniPlayer Swipe Gestures:** Swipe left or right on the MiniPlayer to skip tracks with natural haptic feedback and elastic resistance.
+- **Animated Transitions:** Smooth, fluid text transitions for titles and artist labels as tracks change.
+- **Monochromatic & True Black:** High-contrast zinc/charcoal dark palette optimized for battery savings on AMOLED/OLED screens.
+- **Smart Monogram Fallback:** Dynamic artist letter monograms on clean container surfaces so you never see empty or black void circles.
+- **Synchronized Lyrics:** Live time-synced lyrics with multi-provider fallback (YouTube Music, LRCLIB, Kugou).
+- **Hybrid Library:** Seamlessly mix local audio files (MP3, FLAC, Opus, AAC, M4A) with cloud YouTube Music playlists.
+- **Privacy First:** No user data collection, no telemetry, and zero third-party tracking libraries.
+- **Built-In Updater:** Get notified directly in the app when an update is available and update with a single tap.
 
 ---
 
-## 📦 Download & Installation
+## Download & Installation
 
 ### Latest Release: [v1.0.1](https://github.com/wadecalvin9/echo-releases/releases/latest)
 
@@ -75,7 +75,7 @@ No accounts mandatory. No tracking. No ads. Just instant music.
 
 ---
 
-## 🔄 In-App Updates
+## In-App Updates
 
 Echo includes an automated update checker:
 - You will receive an in-app prompt as soon as a new version is released.
@@ -84,7 +84,7 @@ Echo includes an automated update checker:
 
 ---
 
-## 🔐 Verification & Checksums
+## Verification & Checksums
 
 To verify the integrity of your download:
 
@@ -97,5 +97,5 @@ Signature: Verified (v2 + v3 scheme)
 ---
 
 <div align="center">
-  <sub>Built with ❤️ for music enthusiasts. Licensed under GNU GPL v3.0.</sub>
+  <sub>Built for music enthusiasts. Licensed under GNU GPL v3.0.</sub>
 </div>
