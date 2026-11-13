@@ -14,8 +14,10 @@
 
 <p align="center">
   <a href="#downloads"><b>[ Downloads ]</b></a> •
-  <a href="#desktop-screenshots">Screenshots</a> •
+  <a href="#desktop-screenshots">Desktop Screenshots</a> •
+  <a href="#android-screenshots">Android Screenshots</a> •
   <a href="#features">Features</a> •
+  <a href="#installation-guides">Installation</a> •
   <a href="#about--creator">Creator</a>
 </p>
 
@@ -25,35 +27,9 @@
 
 ## Overview
 
-**Echo** is a modernized, distraction-free music player ecosystem tailored for streaming YouTube Music and playing your personal offline music library. Available as a high-performance **Desktop application (Windows x64)** written in pure Rust (Iced + Tokio + Symphonia) and as a battery-efficient **Android application**.
+**Echo** is a modernized, distraction-free music player ecosystem tailored for streaming YouTube Music and playing your personal offline music library. Available as a high-performance **Desktop application (Windows x64)** written in pure Rust (Iced + Tokio + Symphonia) and as a battery-efficient **Android application** (Jetpack Compose).
 
 No accounts mandatory. No tracking. No advertisements. Just instant, bit-perfect music.
-
----
-
-## Desktop Screenshots
-
-<div align="center">
-
-### Home & Discover
-<img src="assets/screenshot_home.jpg" width="95%" alt="Echo Desktop - Home & Discover" />
-
-<br/><br/>
-
-### Now Playing & Queue
-<img src="assets/screenshot_nowplaying.jpg" width="95%" alt="Echo Desktop - Now Playing & Queue" />
-
-<br/><br/>
-
-### Cinema Synced Lyrics Stage
-<img src="assets/screenshot_lyrics.jpg" width="95%" alt="Echo Desktop - Cinema Synced Lyrics Stage" />
-
-<br/><br/>
-
-### Artist Discography & Top Songs
-<img src="assets/screenshot_artist.jpg" width="95%" alt="Echo Desktop - Artist Detail Page" />
-
-</div>
 
 ---
 
@@ -66,10 +42,49 @@ No accounts mandatory. No tracking. No advertisements. Just instant, bit-perfect
 | **Echo Desktop (Windows x64)** | Windows 10 / 11 (64-bit) | Portable zip with `echo-app.exe` & `echo-auth.exe` helper | **[Echo-Desktop-Windows-x64.zip](https://github.com/wadecalvin9/echo-releases/releases/latest)** |
 | **Echo Android (Universal APK)** | Android 7.0+ (API 24+) | Supports `arm64-v8a`, `armeabi-v7a`, `x86`, `x86_64` | **[Echo-1.0.3-core-release-4.apk](https://github.com/wadecalvin9/echo-releases/releases/download/v1.0.3/Echo-1.0.3-core-release-4.apk)** |
 
-### Desktop Quick Start:
-1. Download **`Echo-Desktop-Windows-x64.zip`** from the link above.
-2. Extract the archive into any folder of your choice.
-3. Run **`echo-app.exe`** to start streaming music immediately!
+---
+
+## Desktop Screenshots
+
+<div align="center">
+
+### Home & Discover
+<img src="assets/desktop_home.jpg" width="95%" alt="Echo Desktop - Home & Discover" />
+
+<br/><br/>
+
+### Now Playing & Queue
+<img src="assets/desktop_nowplaying.jpg" width="95%" alt="Echo Desktop - Now Playing & Queue" />
+
+<br/><br/>
+
+### Cinema Synced Lyrics Stage
+<img src="assets/desktop_lyrics.jpg" width="95%" alt="Echo Desktop - Cinema Synced Lyrics Stage" />
+
+<br/><br/>
+
+### Artist Discography & Top Songs
+<img src="assets/desktop_artist.jpg" width="95%" alt="Echo Desktop - Artist Detail Page" />
+
+</div>
+
+---
+
+## Android Screenshots
+
+<div align="center">
+  <img src="assets/mobile_home.jpg" width="23%" alt="Echo Android - Home & Quick Picks" />
+  &nbsp;
+  <img src="assets/mobile_player.jpg" width="23%" alt="Echo Android - Now Playing" />
+  &nbsp;
+  <img src="assets/mobile_lyrics.jpg" width="23%" alt="Echo Android - Synced Lyrics" />
+  &nbsp;
+  <img src="assets/mobile_library.jpg" width="23%" alt="Echo Android - Offline Library" />
+</div>
+
+<p align="center">
+  <sub>Left to right: Home & Quick Picks • Now Playing with Swipe Controls • Cinema Synced Lyrics • Local & Streamed Library</sub>
+</p>
 
 ---
 
@@ -90,6 +105,35 @@ No accounts mandatory. No tracking. No advertisements. Just instant, bit-perfect
 - **True Black OLED Mode:** High-contrast zinc/charcoal dark palette optimized for battery efficiency.
 - **Multi-Provider Synced Lyrics:** Live time-synced lyrics with automatic fallback.
 - **In-App Updater:** Automatic update notifications and one-tap in-app installation.
+- **Lightweight & Private:** Zero tracking, no background analytics, minimal battery consumption.
+
+---
+
+## Installation Guides
+
+### Desktop (Windows 10 / 11)
+1. Download **`Echo-Desktop-Windows-x64.zip`** from the [Latest Releases](https://github.com/wadecalvin9/echo-releases/releases/latest).
+2. Extract the archive into any folder (e.g., `C:\Program Files\Echo` or your Desktop/Programs folder).
+3. Double-click **`echo-app.exe`** to launch the app!
+4. *(Optional)* Pin `echo-app.exe` to your Start Menu or Taskbar.
+
+### Android (APK)
+1. Tap the download link above on your Android phone to get **`Echo-1.0.3-core-release-4.apk`**.
+2. When the download finishes, open the `.apk` file.
+3. If prompted by Android, enable **"Allow installation from this source"** for your browser or file manager.
+4. Tap **Install** and enjoy!
+
+---
+
+## Verification & Checksums
+
+To verify the integrity of your download:
+
+```text
+Package: Echo-1.0.3-core-release-4.apk
+SHA-256: 6846581996e930176a7a668fa418d9d9f75b5842b20e192606d4c2984a8aa3e7
+Signature: Android APK Signature Scheme v2 (Verified)
+```
 
 ---
 
