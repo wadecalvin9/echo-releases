@@ -1,2 +1,2 @@
-# Binary build artifacts
-*.exe
+# Ignore temporary files only
+*.tmp

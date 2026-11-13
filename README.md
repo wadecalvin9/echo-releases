@@ -39,7 +39,8 @@ No accounts mandatory. No tracking. No advertisements. Just instant, bit-perfect
 
 | Package | Platform | Details | Direct Download |
 | :--- | :--- | :--- | :--- |
-| **Echo Desktop (Windows x64)** | Windows 10 / 11 (64-bit) | Portable zip with `echo-app.exe` & `echo-auth.exe` helper | **[Download Echo-Desktop-Windows-x64.zip](https://github.com/wadecalvin9/echo-releases/releases/download/v1.0.4/Echo-Desktop-Windows-x64.zip)** • [View in Repo](Echo-Desktop-Windows-x64.zip) |
+| **Echo Desktop Installer (Recommended)** | Windows 10 / 11 (64-bit) | Standard Windows setup installer with Start Menu & Desktop shortcuts | **[Download Echo-Setup-v1.0.4.exe](https://github.com/wadecalvin9/echo-releases/releases/download/v1.0.4/Echo-Setup-v1.0.4.exe)** • [View in Repo](Echo-Setup-v1.0.4.exe) |
+| **Echo Desktop Portable Zip** | Windows 10 / 11 (64-bit) | Portable zip (standalone, all DLLs included) | **[Download Echo-Desktop-Windows-x64.zip](https://github.com/wadecalvin9/echo-releases/releases/download/v1.0.4/Echo-Desktop-Windows-x64.zip)** • [View in Repo](Echo-Desktop-Windows-x64.zip) |
 | **Echo Android (Universal APK)** | Android 7.0+ (API 24+) | Supports `arm64-v8a`, `armeabi-v7a`, `x86`, `x86_64` | **[Download Echo-1.0.3-core-release-4.apk](https://github.com/wadecalvin9/echo-releases/releases/download/v1.0.4/Echo-1.0.3-core-release-4.apk)** |
 
 ---
@@ -112,10 +113,15 @@ No accounts mandatory. No tracking. No advertisements. Just instant, bit-perfect
 ## Installation Guides
 
 ### Desktop (Windows 10 / 11)
-1. Download **`Echo-Desktop-Windows-x64.zip`** from [Direct Download (v1.0.4)](https://github.com/wadecalvin9/echo-releases/releases/download/v1.0.4/Echo-Desktop-Windows-x64.zip) or [Latest Releases](https://github.com/wadecalvin9/echo-releases/releases/latest).
-2. Extract the archive into any folder (e.g., `C:\Program Files\Echo` or your Desktop/Programs folder).
-3. Double-click **`echo-app.exe`** to launch the app!
-4. *(Optional)* Pin `echo-app.exe` to your Start Menu or Taskbar.
+**Standard Installation (Recommended):**
+1. Download **`Echo-Setup-v1.0.4.exe`** from [Direct Download](https://github.com/wadecalvin9/echo-releases/releases/download/v1.0.4/Echo-Setup-v1.0.4.exe).
+2. Run the installer. It will automatically install Echo, configure all runtime libraries, and create Start Menu and Desktop shortcuts.
+3. Launch Echo and start playing!
+
+**Portable Zip:**
+1. Download **`Echo-Desktop-Windows-x64.zip`** from [Direct Download](https://github.com/wadecalvin9/echo-releases/releases/download/v1.0.4/Echo-Desktop-Windows-x64.zip).
+2. Extract the archive into any folder.
+3. Run **`echo-app.exe`** directly (all runtime libraries `libunwind.dll` and `WebView2Loader.dll` are included).
 
 ### Android (APK)
 1. Tap the download link above on your Android phone to get **`Echo-1.0.3-core-release-4.apk`**.
