@@ -1,22 +1,22 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/wadecalvin9/echo-releases/main/assets/icon.png?v=2" width="120" height="120" alt="Echo Icon" style="border-radius: 24px;" />
+<img src="assets/icon.png" width="120" height="120" alt="Echo Icon" style="border-radius: 24px;" />
 
 # Echo
 
-### Minimalist, Lightweight YouTube Music & Local Audio Player for Android
+### Pure-Rust Desktop & Lightweight Android YouTube Music & Local Audio Player
 
 [![Latest Release](https://img.shields.io/github/v/release/wadecalvin9/echo-releases?style=for-the-badge&logo=github&color=30363D&logoColor=white)](https://github.com/wadecalvin9/echo-releases/releases/latest)
-[![Platform](https://img.shields.io/badge/Platform-Android%207.0%2B-2E7D32?style=for-the-badge&logo=android&logoColor=white)](https://github.com/wadecalvin9/echo-releases/releases/latest)
+[![Windows](https://img.shields.io/badge/Platform-Windows%2010%20%2F%2011%20x64-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/wadecalvin9/echo-releases/releases/latest)
+[![Android](https://img.shields.io/badge/Platform-Android%207.0%2B-2E7D32?style=for-the-badge&logo=android&logoColor=white)](https://github.com/wadecalvin9/echo-releases/releases/latest)
 [![License](https://img.shields.io/badge/License-GPL%203.0-blue?style=for-the-badge)](https://www.gnu.org/licenses/gpl-3.0)
-[![Architecture](https://img.shields.io/badge/Arch-Universal%20Core-616161?style=for-the-badge)](https://github.com/wadecalvin9/echo-releases/releases/latest)
+[![Creator](https://img.shields.io/badge/Creator-wadecalvin9-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/wadecalvin9)
 
 <p align="center">
-  <a href="https://github.com/wadecalvin9/echo-releases/releases/latest"><b>[ Download Latest APK ]</b></a> •
+  <a href="#downloads"><b>[ Downloads ]</b></a> •
+  <a href="#desktop-screenshots">Screenshots</a> •
   <a href="#features">Features</a> •
-  <a href="#screenshots">Screenshots</a> •
-  <a href="#download--installation">Installation</a> •
-  <a href="#in-app-updates">In-App Updates</a>
+  <a href="#about--creator">Creator</a>
 </p>
 
 </div>
@@ -25,75 +25,83 @@
 
 ## Overview
 
-**Echo** is a modernized, distraction-free Android music player tailored for streaming YouTube Music and playing your personal offline music library. Built with modern Jetpack Compose and clean Material Design, Echo focuses on speed, battery efficiency, and an uncluttered auditory experience.
+**Echo** is a modernized, distraction-free music player ecosystem tailored for streaming YouTube Music and playing your personal offline music library. Available as a high-performance **Desktop application (Windows x64)** written in pure Rust (Iced + Tokio + Symphonia) and as a battery-efficient **Android application**.
 
-No accounts mandatory. No tracking. No ads. Just instant music.
+No accounts mandatory. No tracking. No advertisements. Just instant, bit-perfect music.
 
 ---
 
-## Screenshots
+## Desktop Screenshots
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/wadecalvin9/echo-releases/main/assets/screenshot_home.jpg" width="22%" alt="Home Discover" />
-  &nbsp;
-  <img src="https://raw.githubusercontent.com/wadecalvin9/echo-releases/main/assets/screenshot_player.jpg" width="22%" alt="Now Playing" />
-  &nbsp;
-  <img src="https://raw.githubusercontent.com/wadecalvin9/echo-releases/main/assets/screenshot_lyrics.jpg" width="22%" alt="Synchronized Lyrics" />
-  &nbsp;
-  <img src="https://raw.githubusercontent.com/wadecalvin9/echo-releases/main/assets/screenshot_library.jpg" width="22%" alt="Music Library" />
+
+### Home & Discover
+<img src="assets/screenshot_home.jpg" width="95%" alt="Echo Desktop - Home & Discover" />
+
+<br/><br/>
+
+### Now Playing & Queue
+<img src="assets/screenshot_nowplaying.jpg" width="95%" alt="Echo Desktop - Now Playing & Queue" />
+
+<br/><br/>
+
+### Cinema Synced Lyrics Stage
+<img src="assets/screenshot_lyrics.jpg" width="95%" alt="Echo Desktop - Cinema Synced Lyrics Stage" />
+
+<br/><br/>
+
+### Artist Discography & Top Songs
+<img src="assets/screenshot_artist.jpg" width="95%" alt="Echo Desktop - Artist Detail Page" />
+
 </div>
+
+---
+
+## Downloads
+
+### Latest Releases
+
+| Package | Platform | Details | Download Link |
+| :--- | :--- | :--- | :--- |
+| **Echo Desktop (Windows x64)** | Windows 10 / 11 (64-bit) | Portable zip with `echo-app.exe` & `echo-auth.exe` helper | **[Echo-Desktop-Windows-x64.zip](https://github.com/wadecalvin9/echo-releases/releases/latest)** |
+| **Echo Android (Universal APK)** | Android 7.0+ (API 24+) | Supports `arm64-v8a`, `armeabi-v7a`, `x86`, `x86_64` | **[Echo-1.0.3-core-release-4.apk](https://github.com/wadecalvin9/echo-releases/releases/download/v1.0.3/Echo-1.0.3-core-release-4.apk)** |
+
+### Desktop Quick Start:
+1. Download **`Echo-Desktop-Windows-x64.zip`** from the link above.
+2. Extract the archive into any folder of your choice.
+3. Run **`echo-app.exe`** to start streaming music immediately!
 
 ---
 
 ## Features
 
-- **Ultra-Fast Cold Start:** Zero onboarding hurdles. The app launches immediately into your music without modal popups or walkthrough blocks.
-- **MiniPlayer Swipe Gestures:** Swipe left or right on the MiniPlayer to skip tracks with natural haptic feedback and elastic resistance.
-- **Animated Transitions:** Smooth, fluid text transitions for titles and artist labels as tracks change.
-- **Monochromatic & True Black:** High-contrast zinc/charcoal dark palette optimized for battery savings on AMOLED/OLED screens.
-- **Smart Monogram Fallback:** Dynamic artist letter monograms on clean container surfaces so you never see empty or black void circles.
-- **Synchronized Lyrics:** Live time-synced lyrics with multi-provider fallback (YouTube Music, LRCLIB, Kugou).
-- **Hybrid Library:** Seamlessly mix local audio files (MP3, FLAC, Opus, AAC, M4A) with cloud YouTube Music playlists.
-- **Privacy First:** No user data collection, no telemetry, and zero third-party tracking libraries.
-- **Built-In Updater:** Get notified directly in the app when an update is available and update with a single tap.
+### Echo Desktop (Windows x64)
+- **Spotify Desktop-Style Navigation:** Dedicated circular Home button alongside a capsule search bar with embedded Explore/Browse icon.
+- **Pure Rust Audio Pipeline:** Symphonia + CPAL engine with Echo loudness leveling (`-3 dB` reference), `+12 dB` soft-clipped limiter, 10-band custom graphic EQ, and Harman AutoEQ headphone profiles.
+- **Cinema-Style Synced Lyrics Stage:** Live synchronized lyrics from LRCLIB, KuGou, and Better Lyrics (TTML), click-to-seek, auto-scroll, romanization, and audio waveform strip.
+- **Song Recognition (Shazam / SongRec):** 16 kHz mono audio fingerprinting via **WASAPI loopback** or microphone to recognize music playing anywhere on your PC.
+- **Offline Downloads & Local Library:** Disk LRU stream cache, offline download manager, and local audio folder indexing (`lofty` tags).
+- **Frameless Reactive Dark Theme:** Custom titlebar, minimize/maximize/close, and dynamic album-art colors (`Dynamic`, `Dark`, `OLED Black`).
+- **Integrations:** Last.fm scrobbling, Windows System Media Transport Controls (SMTC), and taskbar playback progress.
+
+### Echo for Android
+- **Ultra-Fast Cold Start:** Launches immediately into your music without modal popups or onboarding hurdles.
+- **MiniPlayer Gestures:** Natural swipe gestures with elastic resistance to skip tracks.
+- **True Black OLED Mode:** High-contrast zinc/charcoal dark palette optimized for battery efficiency.
+- **Multi-Provider Synced Lyrics:** Live time-synced lyrics with automatic fallback.
+- **In-App Updater:** Automatic update notifications and one-tap in-app installation.
 
 ---
 
-## Download & Installation
+## About & Creator
 
-### Latest Release: [v1.0.3](https://github.com/wadecalvin9/echo-releases/releases/latest)
-
-| Asset | Target Android | Size | Description |
-| :--- | :--- | :--- | :--- |
-| **[Echo-1.0.3-core-release-4.apk](https://github.com/wadecalvin9/echo-releases/releases/download/v1.0.3/Echo-1.0.3-core-release-4.apk)** | Android 7.0+ (API 24+) | ~14.2 MB | **Recommended.** Universal build supporting all modern devices (arm64-v8a, armeabi-v7a, x86, x86_64). |
-
-### How to Install:
-1. Tap the download link above on your Android phone.
-2. When the download finishes, open the .apk file.
-3. If prompted by Android, enable **"Allow installation from this source"** for your browser.
-4. Tap **Install** and enjoy!
+- **Lead Developer & Creator:** [wadecalvin9](https://github.com/wadecalvin9)
+- **Desktop Repository:** [Echo-desktop](https://github.com/wadecalvin9/Echo-desktop)
+- **Releases Repository:** [echo-releases](https://github.com/wadecalvin9/echo-releases)
+- **License:** GNU General Public License v3.0 (GPL-3.0-or-later)
 
 ---
 
-## In-App Updates
-
-Echo includes an automated update checker:
-- You will receive an in-app prompt as soon as a new version is released.
-- You can tap **Install** to download and update directly without visiting a browser.
-- You can also manually check anytime under **Settings > Updates > Check for updates**.
-
----
-
-## Verification & Checksums
-
-To verify the integrity of your download:
-
-```text
-File: Echo-1.0.3-core-release-4.apk
-SHA-256: 6846581996e930176a7a668fa418d9d9f75b5842b20e192606d4c2984a8aa3e7
-Signature: Verified (v2 scheme)
-```
-
----
-
-Built for music enthusiasts. Licensed under GNU GPL v3.0.
+<div align="center">
+  <sub>Built with ❤️ by wadecalvin9 for music enthusiasts worldwide.</sub>
+</div>

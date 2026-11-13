@@ -1,0 +1,4 @@
+# Release binary packages (hosted on GitHub Releases)
+*.zip
+*.exe
+*.apk
