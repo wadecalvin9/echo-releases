@@ -37,10 +37,10 @@ No accounts mandatory. No tracking. No advertisements. Just instant, bit-perfect
 
 ### Latest Releases
 
-| Package | Platform | Details | Download Link |
+| Package | Platform | Details | Direct Download |
 | :--- | :--- | :--- | :--- |
-| **Echo Desktop (Windows x64)** | Windows 10 / 11 (64-bit) | Portable zip with `echo-app.exe` & `echo-auth.exe` helper | **[Echo-Desktop-Windows-x64.zip](https://github.com/wadecalvin9/echo-releases/releases/latest)** |
-| **Echo Android (Universal APK)** | Android 7.0+ (API 24+) | Supports `arm64-v8a`, `armeabi-v7a`, `x86`, `x86_64` | **[Echo-1.0.3-core-release-4.apk](https://github.com/wadecalvin9/echo-releases/releases/download/v1.0.3/Echo-1.0.3-core-release-4.apk)** |
+| **Echo Desktop (Windows x64)** | Windows 10 / 11 (64-bit) | Portable zip with `echo-app.exe` & `echo-auth.exe` helper | **[Download Echo-Desktop-Windows-x64.zip](https://github.com/wadecalvin9/echo-releases/releases/download/v1.0.4/Echo-Desktop-Windows-x64.zip)** • [View in Repo](Echo-Desktop-Windows-x64.zip) |
+| **Echo Android (Universal APK)** | Android 7.0+ (API 24+) | Supports `arm64-v8a`, `armeabi-v7a`, `x86`, `x86_64` | **[Download Echo-1.0.3-core-release-4.apk](https://github.com/wadecalvin9/echo-releases/releases/download/v1.0.4/Echo-1.0.3-core-release-4.apk)** |
 
 ---
 
@@ -112,7 +112,7 @@ No accounts mandatory. No tracking. No advertisements. Just instant, bit-perfect
 ## Installation Guides
 
 ### Desktop (Windows 10 / 11)
-1. Download **`Echo-Desktop-Windows-x64.zip`** from the [Latest Releases](https://github.com/wadecalvin9/echo-releases/releases/latest).
+1. Download **`Echo-Desktop-Windows-x64.zip`** from [Direct Download (v1.0.4)](https://github.com/wadecalvin9/echo-releases/releases/download/v1.0.4/Echo-Desktop-Windows-x64.zip) or [Latest Releases](https://github.com/wadecalvin9/echo-releases/releases/latest).
 2. Extract the archive into any folder (e.g., `C:\Program Files\Echo` or your Desktop/Programs folder).
 3. Double-click **`echo-app.exe`** to launch the app!
 4. *(Optional)* Pin `echo-app.exe` to your Start Menu or Taskbar.
